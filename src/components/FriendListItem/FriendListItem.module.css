@@ -1,11 +1,11 @@
 .item {
   display: flex;
   padding: 5px 10px;
-  justify-content: start;
   align-items: center;
   gap: 10px;
   background-color: #fff;
   border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .avatar {
   width: 50px;
