@@ -23,11 +23,11 @@
 
 .friendIsOnline {
   composes: status;
-  background-color: green;
+  background-color: #4daf4e;
 }
 .friendIsNotOnline {
   composes: status;
-  background-color: coral;
+  background-color: #ff4d58;
 }
 .name {
   font-size: 18px;
