@@ -19,10 +19,7 @@ export const App = () => {
         stats={user.stats}
       />
       {data && data.length > 0 ? (
-        <>
-          {data.title && <Statistics title={data.title} stats={data} />}
-          {!data.title && <Statistics stats={data} />}
-        </>
+        <Statistics title="Upload stats" stats={data} />
       ) : null}
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
