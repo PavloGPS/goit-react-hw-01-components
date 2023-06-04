@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import getRandomHexColor from 'utils/getRandomHexColor';
 import css from './Statistics.module.css';
 
-function Statistics({ title = false, stats }) {
+function Statistics({ title, stats }) {
   return (
     <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}
