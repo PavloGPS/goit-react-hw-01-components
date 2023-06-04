@@ -1,4 +1,4 @@
-.transaction-history {
+.transactionHistory {
   margin: 20px Auto;
   width: 100%;
   max-width: 600px;
@@ -11,27 +11,27 @@ th,
 td {
   padding: 5px;
 }
-.transaction-history tr {
+.transactionHistory tr {
   background-color: #fff;
   color: #afb4bb;
   width: calc(100% / 3);
   text-align: center;
 }
-.transaction-history th:first-child,
-.transaction-history td:first-child {
+.transactionHistory th:first-child,
+.transactionHistory td:first-child {
   padding-left: 7%;
   text-align: left;
 }
-.transaction-history td:first-child {
+.transactionHistory td:first-child {
   text-transform: capitalize;
 }
-.transaction-history td:nth-child(2) {
+.transactionHistory td:nth-child(2) {
   text-align: right;
   padding-right: 9%;
   padding-left: auto;
 }
 
-.transaction-history th {
+.transactionHistory th {
   background-color: #00bcd5;
   color: #ffffff;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -39,6 +39,6 @@ td {
   font-size: small;
   text-transform: uppercase;
 }
-.transaction-history tr:nth-child(even) {
+.transactionHistory tr:nth-child(even) {
   background-color: #ecf1f4;
 }
