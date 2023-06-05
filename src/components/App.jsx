@@ -18,9 +18,7 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
-      {data && data.length > 0 ? (
-        <Statistics title="Upload stats" stats={data} />
-      ) : null}
+      <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </>
