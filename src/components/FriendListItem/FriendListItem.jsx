@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 import css from './FriendListItem.module.css';
 
-function FriendListItem({ avatar, name, isOnline, id }) {
+function FriendListItem({ avatar, name, isOnline }) {
   return (
-    <li className={css.item} key={id}>
+    <li className={css.item}>
       <span className={isOnline ? css.friendIsOnline : css.friendIsNotOnline}>
         {' '}
       </span>
@@ -13,10 +13,9 @@ function FriendListItem({ avatar, name, isOnline, id }) {
   );
 }
 FriendListItem.propTypes = {
-  status: PropTypes.bool.isRequired,
+  isOnline: PropTypes.bool.isRequired,
   avatar: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  id: PropTypes.string.isRequired,
 };
 
 export default FriendListItem;
